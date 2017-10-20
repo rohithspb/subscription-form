@@ -82,7 +82,7 @@ function sendMail(userData) {
         service: 'Gmail',
         auth: {
             user: 'rohithspb@gmail.com', // Your email id
-            pass: '9900560672' // Your password
+            pass: '@@@@@@' // Your password
         },
         rejectUnauthorized:false
     });
