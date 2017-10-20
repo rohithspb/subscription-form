@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+	<title>Subscription form</title>
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<style type="text/css">
+
+
+
+</style>
+
+</head>
+
+
+<body>
+  <section>
+<div class ="container ">
+<div class ="col-md-6 col-md-offset-6">
+	
+<!-- form  -->
+      <form class ="myform well" id ="myform" name="myform" >
+
+        <!-- heading -->
+   <div class="form-group">
+    
+      <h1>Subscription form</h1>
+    
+  </div>
+
+
+
+  	<!-- name field  -->
+  <div class="form-group">
+    <label for="name">Name :</label>
+    <input type="text" class="form-control uname" id="uname" name ="uname" placeholder="Enter Name" required>
+  </div>
+
+  	<!-- email field  -->
+ <div class="form-group">
+    <label for="email">Email address</label>
+    <input type="email" class="form-control email" id="email" aria-describedby="emailHelp" name ="email" placeholder="Enter email" required>
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+
+  	<!-- mobile field  -->
+  <div class="form-group">
+    <label for="mobile">Mobile No. :</label>
+    <input type="number" class="form-control mobile" id="mobile" name ="mobile" placeholder="Enter Mobile number" required >
+  </div>
+
+  	<!-- city field  -->
+  <div class="form-group">
+    <label for="city">City</label>
+    <input type="text" class="form-control city" id="city" name ="city"  placeholder="Enter city" required>
+  </div>
+
+  <div>
+       <p id ="demo" style ="color:red;"></p>
+
+  </div>
+ 
+  <button class="btn btn-lg btn-primary" id ="subscribe">Subscribe</button>
+</form>
+</div>
+
+</div>
+</section>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<script type="text/javascript" src ="script.js"></script>
+</body>
+
+</html>
